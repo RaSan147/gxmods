@@ -1,6 +1,6 @@
 {
    "author": "Rasan147",
-   "description": "Leaving old-school and bringing GX UI design in Spotify.",
+   "description": "Leaving old-school and bringing GX UI design in Spotify.\n\n All mod Source Codes here: https://github.com/RaSan147/gxmods",
    "developer": {
       "name": "Rasan147"
    },
@@ -18,5 +18,5 @@
       "schema_version": 1
    },
    "name": "Spotify Cube-GX",
-   "version": "0.2.7"
+   "version": "0.2.9"
 }
