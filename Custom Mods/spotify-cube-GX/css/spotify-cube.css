@@ -1,29 +1,67 @@
 :root {
-	--is-active-fg-color: #871dff !important;
-	--fg-color: #46078d9a !important;
-	--bg-color: #3a04ff67 !important;
+	--is-active-fg-color: #1dacff !important;
+	--fg-color: #1371ff9a !important;
+	--bg-color: #083bc567 !important;
 	--background-base: #1fabec !important;
-	--background-highlight: #029de6 !important;
+	--background-highlight: #2929296e !important;
 }
 
 .encore-dark-theme .encore-bright-accent-set {
 	--background-base: #1fabec !important;
-	--background-highlight: #029de6 !important;
+	--background-highlight: #2929296e !important;
 	--background-press: #0960c4 !important;
 	--background-elevated-base: #1fabec !important;
-	--background-elevated-highlight: #029de6 !important;
+	--background-elevated-highlight: #2929296e !important;
 	--background-elevated-press: #054c9c !important;
 	--background-tinted-base: #1fabec !important;
-	--background-tinted-highlight: #029de6 !important;
+	--background-tinted-highlight: #2929296e !important;
 	--background-tinted-press: #054c9c !important;
 	--background-unsafe-for-small-text-base: #1fabec !important;
-	--background-unsafe-for-small-text-highlight: #029de6 !important;
+	--background-unsafe-for-small-text-highlight: #2929296e !important;
 	--background-unsafe-for-small-text-press: #054c9c !important;
 	--decorative-subdued: #0c67f0 !important;
 }
 
+.encore-dark-theme, .encore-dark-theme .encore-base-set {
+    --darkreader-bg--background-base: #00000009 !important;
+    --darkreader-border--background-base: #867c6e;
+    --darkreader-bg--background-highlight: #2929296e !important;
+    --darkreader-bg--background-press: #0960c4 !important;
+    --darkreader-text--background-press: #e8e6e3;
+    --darkreader-bg--background-elevated-base: #121414ea !important;
+    --darkreader-border--background-elevated-base: #82796b;
+    --darkreader-bg--background-elevated-highlight: #202224;
+    --background-elevated-press: #191919;
+    --darkreader-bg--background-tinted-base: rgba(24, 26, 27, 0.1);
+    --darkreader-bg--background-tinted-highlight: rgba(24, 26, 27, 0.14);
+    --darkreader-bg--background-tinted-press: rgba(24, 26, 27, 0.05);
+    --darkreader-bg--text-base: #181a1b;
+    --darkreader-text--text-base: #e8e6e3;
+    --darkreader-border--text-base: #303436;
+    --darkreader-bg--text-subdued: #43484b;
+    --darkreader-text--text-subdued: #b8b2a9;
+    --darkreader-bg--text-bright-accent: #18ac4d;
+    --darkreader-text--text-bright-accent: #3ce478;
+    --darkreader-border--text-bright-accent: #169f47;
+    --darkreader-text--text-negative: #f36d7b;
+    --darkreader-text--text-warning: #ffa938;
+    --darkreader-text--text-positive: #3ce478;
+    --darkreader-text--text-announcement: #4fb5ff;
+    --darkreader-bg--essential-base: #181a1b;
+    --darkreader-border--essential-base: #303436;
+    --darkreader-bg--essential-subdued: #5d6569;
+    --darkreader-border--essential-subdued: #635c51;
+    --darkreader-bg--essential-bright-accent: #18ac4d;
+    --essential-negative: #ed2c3f;
+    --essential-warning: #ffa42b;
+    --essential-positive: #1ed760;
+    --essential-announcement: #4cb3ff;
+    --decorative-base: #fff;
+    --decorative-subdued: #292929;
+}
+
 .encore-dark-theme, .encore-dark-theme .encore-bright-accent-set {
-	--text-bright-accent: #5609e4 !important;
+	--text-bright-accent: #09b1e4 !important;
 	--text-positive: #3284ff !important;
 	--essential-bright-accent: #2daafd !important;
 	--essential-positive: #3284ff !important;
@@ -62,7 +100,7 @@ div.BdcvqBAid96FaHAmPYw_ {
 
 div[role="presentation"] > li[role="listitem"] > .gTRkaE:hover::after {
 	/* sidebar items */
-	background-color: #010e8080 !important;
+	background-color: #0953c28f !important;
 }
 
 /* button[data-testid="top-bar-back-button"], button[data-testid="top-bar-forward-button"]{
@@ -102,8 +140,8 @@ nav[data-testid="footer-div"] {
 
 
 button[role="switch"][data-testid="add-button"] {
-	color: #47C560 !important;
-	fill: #47C560 !important;
+	color: #287af7 !important;
+	fill: #287af7 !important;
 	/* hue will make it blue!! */
 	filter: hue-rotate(90deg) !important;
 }
@@ -143,11 +181,11 @@ main > section div.contentSpacing + div, div.CoLO4pdSl8LGWyVZA00t {
 
 /* ul inside div with id=context-menu */
 #context-menu ul {
-	background-color: #2e0049f3 !important;
+	background-color: #0953c28f !important;
 }
 
 li[role="presentation"] *[role="menuitem"]:hover {
-	background-color: #180157 !important;
+	background-color: #1478e9 !important;
 }
 
 /* li inside ul inside div with id=context-menu */
@@ -191,6 +229,27 @@ div.under-main-view > div {
 
 
 	
+/* Top bar BG */
+div.S4OmZ_IZexmZ5dasPqW5 {
+	background-color: #00000000 !important;
+}
+
+/* Top Bar All/Music bar */
+div.hIFR8WDm_54EEIa1gwpC {
+	background-color: #00000065 !important;
+}
+
+/* Right side Credit and queue */
+div.Ai_McRq9wJEYK21w8nX_ {
+	background-color: #00000065 !important;
+}
+
+
+
+
+
+
+
 
 
 
