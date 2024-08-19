@@ -4,7 +4,7 @@ Both Opera GX Mods and documentation are still actively developed.
 
 # Quick start
 
-[Mod_Template](Mod_Template) is created to give you a quick start into creating mods. It showcases all capabilities and is a convenient starting point to create own mods. Load it in Opera GX, look around, modify things and have fun.
+[Mod_Template](Mod_Template) is created to give you a quick start into creating mods. It showcases all capabilities and is a convenient starting point to create your own mods. Load it in Opera GX, look around, modify things and have fun.
 
 ![Loaded Mod Template](images/loaded_mod_template.png)
 
@@ -21,39 +21,39 @@ See [manifest.json](Mod_Template/manifest.json) from Mod_Template. It should be 
 
 ### Background music
 
-Opera GX uses [vertical remixing](https://gamemaker.io/en/blog/compose-video-game-music) to achive dynamic music in browser. However it doesn't mean you need to provide multiple music files. If only one is provided it will work as well. In such a case you can do a little trick and list the same file more than once. This will result in an increased volume when users is active in browser.
+Opera GX uses [vertical remixing](https://gamemaker.io/en/blog/compose-video-game-music) to achieve dynamic music in the browser. However it doesn't mean you need to provide multiple music files. If only one is provided it will work as well. In such a case you can do a little trick and list the same file more than once. This will result in an increased volume when users are active in the browser.
 
 ### Keyboard sounds
 
-You can provide a single sound for a key or a list of sounds that will be played in provided order. You can keep keys empty which means that no sound will be played or remove key and in that case default sound will be played.
+You can provide a single sound for a key or a list of sounds that will be played in the provided order. You can include one empty string which means that no sound will be played or remove key and in that case default sound will be played.
+
+The sample [manifest.json](Mod_Template/manifest.json) shows all the keyboard sounds that can be added.
 
 ### Browser sounds
 
-The same rules apply as in keyboard sounds.
+The same rules apply as in keyboard sounds. The sample [manifest.json](Mod_Template/manifest.json) shows all the browser sounds that can be added.
 
 ### Wallpaper
 
-Provide light and dark version. Mods can't block users from switching between light and dark mode.
+Provide light and dark versions. Mods can't block users from switching between light and dark mode.
 
 ### Theme
 
-Provide both light and dark version. Mods can't block users from switching between light and dark mode.
+Provide both light and dark versions. Mods can't block users from switching between light and dark mode.
 
 ### Shaders
 
-More than one shader can be provided in single mod. [Read more about shaders](shaders.md).
+More than one shader can be provided in a single mod. [Read more about shaders](shaders.md).
+
+Only one shader can be active at a time, which is controlled by the user.
 
 ### Web modding
 
-Those are basically CSSes that can be applied to web pages. Multiple pages can be modified with a single mod. Opera GX exposes primary and secondary color if you want to make web pages follow UI colors (see [opera.css](Mod_Template/webmodding/opera.css))
+These are CSS styles that can be applied to web pages. Multiple pages can be modified with a single mod. Opera GX exposes primary and secondary color if you want to make web pages follow UI colors (see [opera.css](Mod_Template/webmodding/opera.css))
 
-# Best practice
+# Guildelines
 
-Random order.
+Follow our [guidelines](guidelines.md) when creating mods.
 
-1. Limit size of resoures.
-2. Music and sounds should follow volume from Mod_Template otherwise it won't be a good experience for users.
-3. Keep resources in dedicated subdirectories.
-4. Use 512x512 good looking image for icon. 
 
 
