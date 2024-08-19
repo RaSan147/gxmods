@@ -1,0 +1,24 @@
+{
+   "author": "Rasan147",
+   "description": "Leaving old-school and bringing GX UI design in Spotify.",
+   "developer": {
+      "name": "Rasan147"
+   },
+   "icons": {
+      "512": "icon_512.png"
+   },
+   "manifest_version": 3,
+   "mod": {
+      "payload": {
+         "page_styles": [ {
+            "css": [ 
+                     "css/font-size.css",
+                     "css/BG-mod.css"],
+            "matches": [ "https://myanimelist.net/*" ]
+         } ]
+      },
+      "schema_version": 1
+   },
+   "name": "MAL-GX",
+   "version": "0.0.1"
+}

@@ -1,0 +1,72 @@
+{
+   "description": "Get lost in the captivating world of Nier Automata, where 2B reigns supreme as the ultimate femme fatale. Also includes light mode with A2 , 3 relaxing background music , click effects - same as in game",
+   "developer": {
+      "name": "Vaibhav Gowda"
+   },
+   "icons": {
+      "512": "icon_512.png"
+   },
+   "key": "MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAxF6DqMLnCEN+j7u3+3P2ttA+uCPw0P7qCGFd48QIkZ9dHsenrDsVQn0mHyWiP8uSnEztlSYpoBIEzSZKZgzRfiGjF+vaR9vmQGrGqxAZSrfp/z8vgOtahtzxjaSX4VqNsRr2JaOo6pPaC/Xgq16bHjRMbLmt4+Xmi0PjXhPVeEA0a0KtmiKNPLdT1kZ/844nz6Phr+5gIVPKXI1fM5JfQ3esk5SNukik8JybefV5t4Q5s9IGluscEI0zqg+2LF6UKZIdp1+T2NHOHcIPG/wI08wyJ22bQtlY317dtyrlQJbo96SH9OSAyNunUkfaDyopxbTw3TrMyEtWrjF9t6SHYAhn1MsyGBPz015xaZdqebiY0nUbFhSwSLueX577GySpETq3AHAEUVywQYachn5wtWqghdL75v7GSR6+Gin/wL7+g36qOFe1UvlG8OfTeShxXKfyElZ/bbtqDxHhtFgHc8C6N9M1T1fAd3IN386EnsKfWlqfKRIx6BbE07EOXdKbxFZAVzdgyDIpNOl9Sfl8pkhlWsght/XI7l1TKuEJUi3trVhlSx3xgBqy9d2xCaQzcFi63Pl96J7eAw2SVYGEo8CqHlF4AnbHrgRx44gtTUDU6Sof+Rh7LyvJRk+S6pFaq+b9CIc1jD6exjXHkS0cJP8uotQDrisXl/E77e4s9ysCAwEAAQ==",
+   "manifest_version": 3,
+   "mod": {
+      "payload": {
+         "background_music": [ "music/trackXXX.mp3" ],
+         "browser_sounds": {
+            "HOVER": [ "sounds/click1.mp3" ],
+            "HOVER_UP": [ "sounds/click1.mp3" ],
+            "TAB_CLOSE": [ "sounds/click2.mp3" ],
+            "TAB_INSERT": [ "sounds/click1.mp3" ]
+         },
+         "keyboard_sounds": {
+            "TYPING_BACKSPACE": [ "sounds/click2.mp3" ],
+            "TYPING_ENTER": [ "sounds/key1.mp3" ],
+            "TYPING_LETTER": [ "sounds/key1.mp3" ],
+            "TYPING_SPACE": [ "sounds/click1.mp3" ]
+         },
+         "theme": {
+            "dark": {
+               "gx_accent": {
+                  "h": 0,
+                  "l": 88,
+                  "s": 0
+               },
+               "gx_secondary_base": {
+                  "h": 0,
+                  "l": 40,
+                  "s": 0
+               }
+            },
+            "light": {
+               "gx_accent": {
+                  "h": 0,
+                  "l": 20,
+                  "s": 0
+               },
+               "gx_secondary_base": {
+                  "h": 0,
+                  "l": 20,
+                  "s": 0
+               }
+            }
+         },
+         "wallpaper": {
+            "dark": {
+               "first_frame": "wallpaper/ff_dark.png",
+               "image": "wallpaper/dark2.webm",
+               "text_color": "#d9d9d9",
+               "text_shadow": "#ffffff"
+            },
+            "light": {
+               "first_frame": "wallpaper/ff_light.png",
+               "image": "wallpaper/light.webm",
+               "text_color": "#0f0f0f",
+               "text_shadow": "#ffffff"
+            }
+         }
+      },
+      "schema_version": 1
+   },
+   "name": "Nier Automata 2B",
+   "update_url": "https://api.gx.me/store/mods/update",
+   "version": "1.1"
+}

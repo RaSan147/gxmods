@@ -1,0 +1,35 @@
+{
+    "manifest_version": 3,
+    "name": "FQ udvash",
+    "description": "Print without header.",
+    "version": "0.1",
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "author": "Rasan",
+    "developer":
+    {
+        "name": "Rasan"
+    },
+    "mod":
+    {
+        "schema_version": 1,
+        "payload":
+        { 
+            "page_styles":
+            [
+                {
+                    "matches":
+                    [
+                        "https://https://online.udvash-unmesh.com/*"
+                    ],
+                    "css":
+                    [
+                        "css/main.css"
+                    ]
+                }
+            ]
+        }
+    }
+}

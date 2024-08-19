@@ -1,0 +1,22 @@
+{
+   "author": "Rasan147",
+   "description": "Show Coursera Video in Dark mode.",
+   "developer": {
+      "name": "Rasan147"
+   },
+   "icons": {
+      "512": "icon_512.png"
+   },
+   "manifest_version": 3,
+   "mod": {
+      "payload": {
+         "page_styles": [ {
+            "css": [ "css/coursera dark.css" ],
+            "matches": [ "https://*.coursera.org/*" ]
+         } ]
+      },
+      "schema_version": 1
+   },
+   "name": "Coursera Dark Arts",
+   "version": "0.0.1"
+}

@@ -1,0 +1,22 @@
+{
+   "author": "Rasan147",
+   "description": "Aesthetic UI design of Opera GX meets Spotify.",
+   "developer": {
+      "name": "Rasan147"
+   },
+   "icons": {
+      "512": "icon_512.png"
+   },
+   "manifest_version": 3,
+   "mod": {
+      "payload": {
+         "page_styles": [ {
+            "css": [ "css/spotify-ocean.css" ],
+            "matches": [ "https://*.spotify.com/*" ]
+         } ]
+      },
+      "schema_version": 1
+   },
+   "name": "Spotify Ocean-GX",
+   "version": "0.1.5"
+}
