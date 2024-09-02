@@ -60,3 +60,18 @@ div[data-testid="tabs-root"] {
 	max-height: calc(100vh) !important;
 }
 
+
+button[data-testid="focused_lex_menu_close_button"] {
+	margin-top: 100px !important; 
+	/* to show below the top bar */
+}
+
+div.css-1w6ktku {
+	margin-top: 100px !important; 
+	/* to show below the top bar */
+}
+
+div.css-1x7hph9 {
+	padding-left: var(--cds-spacing-200);
+	/* lower the padding on left panel */
+}
